@@ -1,0 +1,14 @@
+;$Id$
+name = "Term parser"
+description = "Plugin for feeds tamper"
+core = 7.x
+php = 5.x
+
+; CTools and Token are also required.
+dependencies[] = ctools
+dependencies[] = feeds
+dependencies[] = feeds_tamper
+dependencies[] = feeds_ui
+
+files[] = "TermParser.module"
+files[] = "plugins/TermParser.inc"
